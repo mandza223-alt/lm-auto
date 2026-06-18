@@ -1,0 +1,46 @@
+2026-06-18T17:54:45.215462Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-06-18T17:54:45.215887Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto", pattern: "**/*", negated: false }
+2026-06-18T17:54:45.216408Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-06-18T17:54:45.216422Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto" }
+2026-06-18T17:54:45.217163Z  INFO discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.217193Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.218359Z  INFO discover_sources:walk_synchronous: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.218611Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\public\\vercel.svg"
+2026-06-18T17:54:45.218629Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\AGENTS.md"
+2026-06-18T17:54:45.218632Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\postcss.config.mjs"
+2026-06-18T17:54:45.218636Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\eslint.config.mjs"
+2026-06-18T17:54:45.218642Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\public\\window.svg"
+2026-06-18T17:54:45.218661Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\app\\layout.tsx"
+2026-06-18T17:54:45.218666Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\public\\file.svg"
+2026-06-18T17:54:45.218671Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\netlify.toml"
+2026-06-18T17:54:45.218675Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\README.md"
+2026-06-18T17:54:45.218679Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\app\\page.tsx"
+2026-06-18T17:54:45.218693Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\package.json"
+2026-06-18T17:54:45.218684Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\public\\globe.svg"
+2026-06-18T17:54:45.218687Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\tsconfig.json"
+2026-06-18T17:54:45.218697Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\public\\next.svg"
+2026-06-18T17:54:45.218714Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\CLAUDE.md"
+2026-06-18T17:54:45.218713Z  INFO tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\next.config.ts"
+2026-06-18T17:54:45.218743Z  INFO discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.218752Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.218756Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.218760Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.218978Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.218985Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.218989Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.218991Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-06-18T17:54:45.219018Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "C:\\Users\\mandz.DESKTOP-FNE3L2R\\lm-auto\\app\\globals.css"
+2026-06-18T17:54:45.219022Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219024Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219026Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219121Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219130Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219180Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219274Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219277Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219279Z  INFO get_files:discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219344Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.219451Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219454Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: enter
+2026-06-18T17:54:45.219456Z  INFO get_globs:discover_sources: tailwindcss_oxide::scanner: exit
+2026-06-18T17:54:45.221244Z  INFO get_globs: tailwindcss_oxide::scanner: exit
