@@ -184,7 +184,7 @@ export default function Home() {
         <div className="mt-10 space-y-2">
           <p>📍 Dimitrija Tucovića 52, Kikinda</p>
           <p>📞 063 161 4633</p>
-          <p>✉️ luka62027@gmail.com</p>
+          <p>✉️ mandza223@gmail.com</p>
 <div className="mt-6">
   <iframe
     src="https://www.google.com/maps?q=Dimitrija+Tucovića+52+Kikinda&output=embed"
@@ -208,3 +208,4 @@ export default function Home() {
     </main>
   );
 }
+
