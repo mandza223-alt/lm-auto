@@ -66,61 +66,53 @@ export default function Home() {
           Naše usluge
         </h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Tehnički pregled
-            </h3>
-            <p>
-              Kompletan tehnički pregled svih kategorija vozila.
-            </p>
-          </div>
+        <div
+  onClick={() => alert("Tehnički pregled\n\nCena od 4.500 RSD\n\nKompletan pregled vozila svih kategorija.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Tehnički pregled</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Registracija vozila
-            </h3>
-            <p>
-              Pomoć pri registraciji i kompletnoj dokumentaciji.
-            </p>
-          </div>
+<div
+  onClick={() => alert("Registracija vozila\n\nCena od 2.000 RSD\n\nPomoć pri registraciji i dokumentaciji.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Registracija vozila</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Mali servis
-            </h3>
-            <p>
-              Redovno održavanje vozila i zamena potrošnih delova.
-            </p>
-          </div>
+<div
+  onClick={() => alert("Mali servis\n\nCena od 6.000 RSD\n\nZamena ulja, filtera i osnovni pregled vozila.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Mali servis</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Veliki servis
-            </h3>
-            <p>
-              Profesionalna zamena svih ključnih komponenti.
-            </p>
-          </div>
+<div
+  onClick={() => alert("Veliki servis\n\nCena od 18.000 RSD\n\nKompletna zamena ključnih komponenti.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Veliki servis</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Dijagnostika
-            </h3>
-            <p>
-              Računarska dijagnostika i otkrivanje kvarova.
-            </p>
-          </div>
+<div
+  onClick={() => alert("Dijagnostika\n\nCena od 2.500 RSD\n\nRačunarska dijagnostika svih sistema vozila.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Dijagnostika</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
 
-          <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
-            <h3 className="font-bold text-xl mb-2">
-              Priprema za registraciju
-            </h3>
-            <p>
-              Kompletna priprema vozila za uspešan tehnički pregled.
-            </p>
-          </div>
-        </div>
+<div
+  onClick={() => alert("Priprema za registraciju\n\nCena od 5.000 RSD\n\nPriprema vozila za tehnički pregled.")}
+  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
+>
+  <h3 className="font-bold text-xl mb-2">Priprema za registraciju</h3>
+  <p>Kliknite za više informacija.</p>
+</div>
       </section>
 
       <section
