@@ -66,58 +66,98 @@ export default function Home() {
           Naše usluge
         </h2>
 
-        <div
-  onClick={() => alert("Tehnički pregled\n\nCena od 4.500 RSD\n\nKompletan pregled vozila svih kategorija.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
+        <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
   <h3 className="font-bold text-xl mb-2">Tehnički pregled</h3>
-  <p>Kliknite za više informacija.</p>
+  <p>Kompletan tehnički pregled svih kategorija vozila.</p>
+
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">Cena: od 6.000 RSD</p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Pregled vozila</li>
+      <li>✔ Kontrola kočnica</li>
+      <li>✔ Kontrola svetala</li>
+      <li>✔ Izveštaj o stanju vozila</li>
+    </ul>
+  </div>
 </div>
 
-<div
-  onClick={() => alert("Registracija vozila\n\nCena od 2.000 RSD\n\nPomoć pri registraciji i dokumentaciji.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
+<div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
   <h3 className="font-bold text-xl mb-2">Registracija vozila</h3>
-  <p>Kliknite za više informacija.</p>
+  <p>Pomoć pri registraciji i kompletnoj dokumentaciji.</p>
+
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">Registracija GRATIS</p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Obrada dokumentacije</li>
+      <li>✔ Savetovanje</li>
+      <li>✔ Odlazak u SUP GRATIS</li>
+    </ul>
+  </div>
 </div>
 
-<div
-  onClick={() => alert("Mali servis\n\nCena od 6.000 RSD\n\nZamena ulja, filtera i osnovni pregled vozila.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
+<div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
   <h3 className="font-bold text-xl mb-2">Mali servis</h3>
-  <p>Kliknite za više informacija.</p>
+  <p>Redovno održavanje vozila i zamena potrošnih delova.</p>
+
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">Cena: od 3.000 RSD</p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Zamena ulja</li>
+      <li>✔ Filter ulja</li>
+      <li>✔ Filter vazduha</li>
+    </ul>
+  </div>
 </div>
 
-<div
-  onClick={() => alert("Veliki servis\n\nCena od 18.000 RSD\n\nKompletna zamena ključnih komponenti.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
+<div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
   <h3 className="font-bold text-xl mb-2">Veliki servis</h3>
-  <p>Kliknite za više informacija.</p>
+  <p>Profesionalna zamena svih ključnih komponenti.</p>
+
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">
+      Cena: od 10.000 RSD (zavisi od tipa vozila)
+    </p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Kaiš razvoda</li>
+      <li>✔ Španeri</li>
+      <li>✔ Vodena pumpa</li>
+    </ul>
+  </div>
 </div>
 
-<div
-  onClick={() => alert("Dijagnostika\n\nCena od 2.500 RSD\n\nRačunarska dijagnostika svih sistema vozila.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
+<div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
   <h3 className="font-bold text-xl mb-2">Dijagnostika</h3>
-  <p>Kliknite za više informacija.</p>
+  <p>Računarska dijagnostika i otkrivanje kvarova.</p>
+
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">Cena: od 2.000 RSD</p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Očitavanje grešaka</li>
+      <li>✔ Brisanje grešaka</li>
+      <li>✔ Izveštaj sistema</li>
+    </ul>
+  </div>
 </div>
 
-<div
-  onClick={() => alert("Priprema za registraciju\n\nCena od 5.000 RSD\n\nPriprema vozila za tehnički pregled.")}
-  className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition cursor-pointer"
->
-  <h3 className="font-bold text-xl mb-2">Priprema za registraciju</h3>
-  <p>Kliknite za više informacija.</p>
-</div>
-      </section>
+<div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+  <h3 className="font-bold text-xl mb-2">Servisiranje klime</h3>
+  <p>Punjenje, dezinfekcija i održavanje klima sistema.</p>
 
-      <section
-        id="kontakt"
-        className="bg-white py-16 px-6 text-center"
+  <div className="mt-4">
+    <p className="font-bold text-blue-600">Cena: od 4.000 RSD</p>
+    <ul className="text-sm mt-2 space-y-1">
+      <li>✔ Punjenje klime</li>
+      <li>✔ Dezinfekcija sistema</li>
+      <li>✔ Provera ispravnosti</li>
+    </ul>
+  </div>
+</div>
+
+</section>
+
+<section
+  id="kontakt"
+  className="bg-white py-16 px-6 text-center"
       >
         <h2 className="text-3xl font-bold mb-6">
           Zakaži termin
