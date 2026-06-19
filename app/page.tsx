@@ -215,7 +215,7 @@ export default function Home() {
 
         <div className="mt-10 space-y-2">
           <p>📍 Dimitrija Tucovića 52, Kikinda</p>
-          <p>📞 063 161 4633</p>
+          <p>📞 063 505 449</p>
           <p>✉️ mandza223@gmail.com</p>
 <div className="mt-6">
   <iframe
